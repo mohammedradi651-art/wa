@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-firebase-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that sends Firebase Firestore messages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "dotenv": "^17.4.2",
+    "firebase-admin": "^14.3.0",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
